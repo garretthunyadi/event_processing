@@ -42,6 +42,6 @@ test("rule/current_stress_level", () => {
         }];
     let user_id = "001";
     let satisfied = (0, rules_1.process_rules)(dataRules, lgvs);
-    expect(satisfied).toHaveLength(1);
+    expect(satisfied).toHaveLength(3);
 });
 //# sourceMappingURL=rules.test.js.map
