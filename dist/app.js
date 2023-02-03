@@ -8,10 +8,11 @@ const rules_1 = require("./rules");
 const app = (0, express_1.default)();
 const port = 3000;
 app.get('/', (req, res) => {
-    res.send(run_rules());
+    res.send('run_rules()');
+    // res.send(run_rules());
 });
 app.get('/r', (req, res) => {
-    res.send('Hello Woddrrld!');
+    res.send('Hello W!');
 });
 app.get('/rules/', (req, res) => {
 });

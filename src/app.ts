@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/r', (req, res) => {
-    res.send('Hello Woddrrld!');
+    res.send('Hello W!');
 });
 
 app.get('/rules/', (req, res) => {
